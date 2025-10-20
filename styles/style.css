@@ -1,0 +1,81 @@
+:root {
+    --image-width: 288px;
+
+    --subtitle-font-size: 22px;
+    --subtitle-font-weight: 700;
+    --subtitle-line-height: 1.2;
+    --subtitle-line-spacing: 0px;
+
+    --subtext-font-size: 15px;
+    --subtext-font-weight: 400;
+    --subtext-line-height: 1.4;
+    --subtext-line-spacing: 0.2px;
+
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+    --hyperlink-blue: hsl(228, 45%, 44%);
+    --white: hsl(0, 0%, 100%);
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../design/Outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    display: flex; /* flexboxes are used for one-dimensional layouts */
+    align-items: center; /* vertical centering */
+    justify-content: center; /* horizontal centering */
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--slate-300);
+}
+
+figcaption {
+    text-align: center;
+    width: var(--image-width);
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    padding: 20px; 
+}
+
+.attribution a {
+    color: var(--hyperlink-blue);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    width: var(--image-width); /* don't fix the height so that it can adjust dynamically based on content */
+    padding: 16px;
+    border-radius: 15px; /* to round the corners of the box */
+}
+
+.box img {
+    display: block; /* the img element is inline by default, so we must convert the image to a block element to centre it */
+    width: var(--image-width);
+    border-radius: 20px;
+}
+
+#subtitle {
+    color: var(--slate-900);
+    font-size: var(--subtitle-font-size);
+    font-weight: var(--subtitle-font-weight);
+    line-height: var(--subtitle-line-height);
+    letter-spacing: var(--subtitle-line-spacing);
+}
+
+#subtext {
+    color: var(--slate-500);
+    font-size: var(--subtext-font-size);
+    font-weight: var(--subtext-font-weight);
+    line-height: var(--subtext-line-height);
+    letter-spacing: var(--subtext-line-spacing);
+}
