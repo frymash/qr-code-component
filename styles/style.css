@@ -1,5 +1,9 @@
 :root {
+    --box-padding: 16px;
+    --box-border-radius: 15px;
+
     --image-width: 288px;
+    --image-border-radius: 20px;
 
     --subtitle-font-size: 22px;
     --subtitle-font-weight: 700;
@@ -10,6 +14,9 @@
     --subtext-font-weight: 400;
     --subtext-line-height: 1.4;
     --subtext-line-spacing: 0.2px;
+    --subtext-horizontal-padding: 16px;
+
+    --attribution-font-size: 11px;
 
     --slate-300: hsl(212, 45%, 89%);
     --slate-500: hsl(216, 15%, 48%);
@@ -44,20 +51,19 @@ figcaption {
     justify-content: center;
     background-color: var(--white);
     width: var(--image-width); /* don't fix the height so that it can adjust dynamically based on content */
-    padding: 16px;
-    border-radius: 15px; /* to round the corners of the box */
+    padding: var(--box-padding);
+    border-radius: var(--box-border-radius); /* to round the corners of the box */
 }
 
 .box picture img {
     display: block; /* the img element is inline by default, so we must convert the image to a block element to centre it */
     width: var(--image-width);
-    border-radius: 20px;
+    border-radius: var(--image-border-radius);
 }
 
 #attribution {
-    font-size: 11px; 
+    font-size: var(--attribution-font-size); 
     text-align: center;
-    padding: 20px; 
 }
 
 #attribution a {
@@ -78,4 +84,5 @@ figcaption {
     font-weight: var(--subtext-font-weight);
     line-height: var(--subtext-line-height);
     letter-spacing: var(--subtext-line-spacing);
+    padding: 0 var(--subtext-horizontal-padding);
 }
