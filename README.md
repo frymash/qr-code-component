@@ -134,7 +134,7 @@ body {
 
 ### Useful resources
 
-- [web.dev - Learn CSS- Box Model](https://web.dev/learn/css/box-model) - The box model felt like the biggest CSS concept I needed to understand to move ahead with the assignment. Once I began to think of each CSS component as a box, I found it significantly easier to organise and design each component.
+- [web.dev - Learn CSS - Box Model](https://web.dev/learn/css/box-model) - The box model felt like the biggest CSS concept I needed to understand to move ahead with the assignment. Once I began to think of each CSS component as a box, I found it significantly easier to organise and design each component.
 
 ## Author
 
