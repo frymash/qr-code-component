@@ -18,7 +18,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -139,5 +138,5 @@ body {
 
 ## Author
 
-- GitHub - [Isaac](https://www.github.com/frymash)
+- GitHub - [Isaac Chan](https://www.github.com/frymash)
 - Frontend Mentor - [@frymash](https://www.frontendmentor.io/profile/yourusername)
