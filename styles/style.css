@@ -70,7 +70,7 @@ figcaption {
     color: var(--hyperlink-blue);
 }
 
-#subtitle {
+#title {
     color: var(--slate-900);
     font-size: var(--subtitle-font-size);
     font-weight: var(--subtitle-font-weight);
@@ -78,7 +78,7 @@ figcaption {
     letter-spacing: var(--subtitle-line-spacing);
 }
 
-#subtext {
+#body_text {
     color: var(--slate-500);
     font-size: var(--subtext-font-size);
     font-weight: var(--subtext-font-weight);
