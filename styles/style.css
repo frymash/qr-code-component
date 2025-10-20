@@ -37,16 +37,6 @@ figcaption {
     width: var(--image-width);
 }
 
-.attribution {
-    font-size: 11px; 
-    text-align: center;
-    padding: 20px; 
-}
-
-.attribution a {
-    color: var(--hyperlink-blue);
-}
-
 .box {
     display: flex;
     flex-direction: column;
@@ -62,6 +52,16 @@ figcaption {
     display: block; /* the img element is inline by default, so we must convert the image to a block element to centre it */
     width: var(--image-width);
     border-radius: 20px;
+}
+
+#attribution {
+    font-size: 11px; 
+    text-align: center;
+    padding: 20px; 
+}
+
+#attribution a {
+    color: var(--hyperlink-blue);
 }
 
 #subtitle {
