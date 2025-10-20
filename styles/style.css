@@ -58,7 +58,7 @@ figcaption {
     border-radius: 15px; /* to round the corners of the box */
 }
 
-.box img {
+.box picture img {
     display: block; /* the img element is inline by default, so we must convert the image to a block element to centre it */
     width: var(--image-width);
     border-radius: 20px;
